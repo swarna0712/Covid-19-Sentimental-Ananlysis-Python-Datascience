@@ -72,7 +72,7 @@ New_deaths, Cumulative_cases, New_deaths, Cumulative_deaths
 
 ##### *Pre-processing and Data cleaning*
 
-######## Twitter data: 
+###### Twitter data: 
 
 Each sample file contained sentiment score of a tweet and its tweet-id. 1000 samples from each file were taken where any non-existing tweet-id row was ignored(removed). Using the tweepy library, we extracted the date of posting, number of retweets and number of likes of a tweet were extracted using tweet-id. This data was used to calculate: mean sentiment, mean retweeted sentiment, mean liked sentiment, most agreed with sentiment, where:
 
@@ -165,7 +165,7 @@ hypo_z: 4.816478261987024
 
 ##### *Reject NULL Hypothesis*
 
-####### Results and discussions
+###### Results and discussions
 
 From the above hypothesis tests, we can determine that: taking number of covid cases as a measure (and reason) of global negativity, the mean sentiments of tweets were always positive to a greater extent than the global negativity (number of covid cases). This can help us say that social media tries to create a positive impact on world even during the toughest of times. We can also infer that during the months of June, July and August, a correlation between the mean sentiment of tweets and the number covid deaths exists. This can be seen by the heatmap of those months.
 
